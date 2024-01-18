@@ -1,0 +1,159 @@
+.newsletter {
+  width: 90%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 0px 140px;  
+  margin-bottom: 150px;
+  background: linear-gradient(180deg, #fde1ff, #c9c5c5 60%);
+  gap: 30px;
+  
+}
+.newsletter h1 {
+  color: #454545;
+  font-size: 55px;
+  font-weight: 600;
+}
+.newsletter p {
+  color: #454545;
+  font-size: 20px;
+}
+.newsletter form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  width: 730px;
+  height: 70px;
+  border-radius: 80px;
+  border: 1px solid #e3e3e3;
+}
+.newsletter  input {
+  width: 500px;
+  margin-left: 30px;
+  border: none;
+  outline: none;
+  color: #616161;
+  font-family: Poppins;
+  font-size: 16px;
+}
+.newsletter form button {
+  width: 210px;
+  height: 70px;
+  border-radius: 80px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+.newsletter form button:hover{
+  transform: scale(1.02);
+}
+.newsletter form button:active{
+  transform: scale(0.99);
+
+}
+
+@media screen and (max-width: 1280px) {
+  .newsletter {
+    padding: 0px 80px;
+    margin-bottom: 120px;
+    gap: 20px;
+  }
+  .newsletter h1 {
+    font-size: 36px;
+  }
+  .newsletter p {
+    font-size: 16px;
+  }
+  .newsletter form {
+    width: 600px;
+    height: 60px;
+  }
+  .newsletter form button {
+    width: 160px;
+    height: 60px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .newsletter {
+    margin-bottom: 60px;
+  }
+  .newsletter h1 {
+    font-size: 30px;
+  }
+  .newsletter p {
+    font-size: 14px;
+  }
+  .newsletter form {
+    width: 500px;
+    height: 50px;
+  }
+  .newsletter form input {
+    width: 300px;
+    font-size: 14px;
+  }
+  .newsletter form button {
+    width: 120px;
+    height: 50px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .newsletter {
+    margin-bottom: 30px;
+    height: 35vh;
+  }
+  .newsletter h1 {
+    font-size: 18px;
+  }
+  .newsletter p {
+    font-size: 12px;
+  }
+  .newsletter form {
+    width: 400px;
+    height: 40px;
+  }
+  .newsletter form input {
+    width: 200px;
+    font-size: 13px;
+  }
+  .newsletter form button {
+    width: 100px;
+    height: 54px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .newsletter {
+    height: 25vh;
+    width: 90%;
+    display: flex;
+    padding: 0px 0px;
+  }
+  .newsletter h1 {
+    font-size: 18px;
+  }
+  .newsletter p {
+    font-size: 12px;
+  }
+  .newsletter form {
+    width: 300px;
+    height: 40px;
+  }
+  .newsletter form input {
+    width: 200px;
+    font-size: 13px;
+  }
+  .newsletter form button {
+    width: 100px;
+    height: 54px;
+    font-size: 13px;
+  }
+}

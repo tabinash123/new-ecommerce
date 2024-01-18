@@ -1,0 +1,146 @@
+.shop-category {
+  display: flex;
+  flex-direction: column;
+  margin-top: px;
+  align-items: center;
+  gap: 1px;
+  margin-bottom: 10px;
+  /* width: 100%; */
+  /* background-color: #888; */
+  justify-content: center;
+}
+.shopcategory-banner {
+  display: block;
+  margin: 30px auto;
+  width: 90%;
+  height: 20vh;
+}
+.shopcategory-indexSort {
+  display: flex;
+  margin: 0px 17px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.shopcategory-sort {
+  padding: 10px 20px;
+  border-radius: 40px;
+  border: 1px solid #888;
+}
+.shopcategory-indexSort p span {
+  font-weight: 600;
+}
+
+.shopcategory-products {
+  /* margin: 20px 170px; */
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 20px;
+  margin-top: 30px;
+}
+.more-less {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  align-items: center;
+  gap: 50px;
+}
+
+.explore-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  height: 40px;
+  border: none;
+  font-size: 20px;
+  font-size: 23px;
+  font-weight: 700;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 6px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+}
+.explore-more:hover {
+  transform: scale(1.08);
+  transition: 0.5s;
+}
+.explore-less {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  border: none;
+  font-size: 20px;
+  font-size: 23px;
+  font-weight: 700;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 6px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+  .shopcategory-banner {
+    margin: 20px auto;
+    width: 90%;
+  }
+  .shopcategory-indexSort {
+    width: 90%;
+    margin: auto;
+  }
+  .shopcategory-sort {
+    padding: 5px 10px;
+  }
+  .shopcategory-indexSort p {
+    font-size: 12px;
+  }
+  .shopcategory-products {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    width: 80%;
+    margin: 10px;
+
+    row-gap: 40px;
+  }
+  .shopcategory-products .item {
+    margin: auto;
+  }
+  .explore-more {
+    /* margin: 100px auto; */
+    width: 100px;
+    height: 4dvb;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .shopcategory-banner {
+    margin: 20px auto;
+    width: 90%;
+  }
+  .shopcategory-products {
+    width: 90%;
+    /* grid-template-columns:1fr 1fr 1fr; */
+    column-gap: 10px;
+  }
+  .explore-more {
+    /* margin: 60px auto; */
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .shopcategory-products {
+    grid-template-columns: 1fr 1fr;
+    padding: 0px;
+    column-gap: 5px;
+    row-gap: 10px;
+  }
+  .shopcategory-banner {
+    height: 150px;
+  }
+}
